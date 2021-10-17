@@ -7,5 +7,3 @@ def speech():
         audio=sr.listen(m)
         query=sr.recognize_google(audio,language='eng-in')
         return query
-hi = speech()
-print(hi)
